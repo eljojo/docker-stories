@@ -9,7 +9,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 ENV JEKYLL_ENV production
 
 RUN apt-get update -qq
-RUN apt-get install -y openjdk-11-jre-headless rclone
+RUN apt-get install -y openjdk-11-jre-headless rclone git
 RUN gem install bundler
 # RUN bundle install --deployment --without development test --path vendor/ruby
 
