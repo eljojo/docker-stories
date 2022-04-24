@@ -1,4 +1,4 @@
-FROM ruby:2.5-stretch
+FROM ruby:2.7-stretch
 # based on https://github.com/shadyoak/s3_website/blob/40c139145f32020ebbf7acbadece8403ede32e4c/Dockerfile
 
 ENV LANG en_US.UTF-8
